@@ -3,6 +3,7 @@ import Webcam from "react-webcam";
 import axios from "axios";
 import FullScreenBackground from "./Fullscreenbg"; // Import the background component
 
+// Webcamcapture Component
 const Webcamcapture = () => {
   const webcamRef = useRef(null);
   const [emotion, setEmotion] = useState(null);
