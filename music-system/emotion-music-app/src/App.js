@@ -1,6 +1,7 @@
 import React from "react";
 import Webcamcapture from "./components/Webcamcapture";
 
+// Main App component
 function App() {
   return (
     <div className="relative h-auto w-full overflow-y-auto bg-gradient-to-br from-gray-900 via-black to-gray-800">
